@@ -21,11 +21,17 @@ class Player {
    void setSpeed(int i) {speed = i;}
    void setDef(int i) {def = i;}
    void setNum(int i) {num = i;}
+   void setInflame(bool i) {isInflame = i;}
+   void setBlock(bool i) {isBlock = i;}
+   void setHaste(bool i) {isHaste = i;}
    //Getters
    int getHealth() {return health;}
    int getAtt() {return att;}
    int getSpeed() {return speed;}
    int getDef() {return def;}
    int getNum() {return num;}
+   bool getInflame() {return isInflame;}
+   bool getBlock() {return isBlock;}
+   bool getHaste() {return isHaste;}
 };
 #endif

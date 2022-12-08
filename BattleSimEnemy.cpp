@@ -20,5 +20,6 @@ void enemyAtt(Player& y, Player x){
    if (pDamage <= 0){ pDamage = 1;}
    int Damage = y.getHealth()-pDamage;
    y.setHealth(Damage);
+   y.setBlock(false);
    cout << "They dealt " << pDamage << " Damage" << endl;
 }
